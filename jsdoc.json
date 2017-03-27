@@ -1,0 +1,169 @@
+{
+  "functions": [
+    {
+      "name": "create",
+      "access": "",
+      "virtual": false,
+      "description": "Create a PonTimer instance",
+      "parameters": [
+        {
+          "name": "args",
+          "type": "*",
+          "description": "",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "PonTimer",
+        "description": ""
+      }
+    }
+  ],
+  "classes": [
+    {
+      "name": "PonTimer",
+      "description": "",
+      "extends": [
+        "AsTimer"
+      ],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "PonTimer",
+        "description": "Timer for pon",
+        "parameters": [],
+        "examples": []
+      },
+      "functions": [
+        {
+          "name": "sleep",
+          "access": "",
+          "virtual": false,
+          "description": "Sleep for duration",
+          "parameters": [
+            {
+              "name": "duration",
+              "type": "number",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise",
+            "description": ""
+          }
+        },
+        {
+          "name": "isSleeping",
+          "access": "",
+          "virtual": false,
+          "description": "Sleeps or not",
+          "parameters": [],
+          "examples": [],
+          "returns": {
+            "type": "boolean",
+            "description": ""
+          }
+        },
+        {
+          "name": "tick",
+          "access": "",
+          "virtual": false,
+          "description": "Measure time from last tick",
+          "parameters": [],
+          "examples": [],
+          "returns": {
+            "type": "number",
+            "description": ""
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "startAt",
+          "access": "",
+          "virtual": false,
+          "description": "",
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "AsTimer",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "AsTimer",
+        "description": "A timer class",
+        "parameters": [],
+        "examples": []
+      },
+      "functions": [
+        {
+          "name": "sleep",
+          "access": "",
+          "virtual": false,
+          "description": "Sleep for duration",
+          "parameters": [
+            {
+              "name": "duration",
+              "type": "number",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise",
+            "description": ""
+          }
+        },
+        {
+          "name": "isSleeping",
+          "access": "",
+          "virtual": false,
+          "description": "Sleeps or not",
+          "parameters": [],
+          "examples": [],
+          "returns": {
+            "type": "boolean",
+            "description": ""
+          }
+        },
+        {
+          "name": "tick",
+          "access": "",
+          "virtual": false,
+          "description": "Measure time from last tick",
+          "parameters": [],
+          "examples": [],
+          "returns": {
+            "type": "number",
+            "description": ""
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "startAt",
+          "access": "",
+          "virtual": false,
+          "description": "",
+          "type": ""
+        }
+      ]
+    }
+  ]
+}
