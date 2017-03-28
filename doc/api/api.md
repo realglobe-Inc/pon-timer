@@ -1,4 +1,4 @@
-# pon-timer@1.0.0
+# pon-timer@1.1.1
 
 Timer for pon
 
@@ -6,9 +6,9 @@ Timer for pon
   + [create(args)](#pon-timer-function-create)
 + [`PonTimer`](#pon-timer-class) Class
   + [new PonTimer()](#pon-timer-class-pon-timer-constructor)
+  + [timer.tick(name)](#pon-timer-class-pon-timer-tick)
   + [timer.sleep(duration)](#pon-timer-class-pon-timer-sleep)
   + [timer.isSleeping()](#pon-timer-class-pon-timer-isSleeping)
-  + [timer.tick()](#pon-timer-class-pon-timer-tick)
 
 ## Functions
 
@@ -44,6 +44,17 @@ Constructor of PonTimer class
 
 
 
+<a class='md-heading-link' name="pon-timer-class-pon-timer-tick" ></a>
+
+### timer.tick(name) -> `number`
+
+Returns time passed from last tick
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| name | string | Tick name |
+
+
 <a class='md-heading-link' name="pon-timer-class-pon-timer-sleep" ></a>
 
 ### timer.sleep(duration) -> `Promise`
@@ -60,12 +71,6 @@ Sleep for duration
 ### timer.isSleeping() -> `boolean`
 
 Sleeps or not
-
-<a class='md-heading-link' name="pon-timer-class-pon-timer-tick" ></a>
-
-### timer.tick() -> `number`
-
-Measure time from last tick
 
 
 

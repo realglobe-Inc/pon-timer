@@ -40,6 +40,27 @@
       },
       "functions": [
         {
+          "name": "tick",
+          "access": "",
+          "virtual": false,
+          "description": "Returns time passed from last tick",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "description": "Tick name",
+              "default": "'default'",
+              "optional": true,
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "number",
+            "description": "Milliseconds from last tick. Null for first time"
+          }
+        },
+        {
           "name": "sleep",
           "access": "",
           "virtual": false,
@@ -69,18 +90,6 @@
           "examples": [],
           "returns": {
             "type": "boolean",
-            "description": ""
-          }
-        },
-        {
-          "name": "tick",
-          "access": "",
-          "virtual": false,
-          "description": "Measure time from last tick",
-          "parameters": [],
-          "examples": [],
-          "returns": {
-            "type": "number",
             "description": ""
           }
         }

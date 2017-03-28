@@ -98,7 +98,7 @@ tryExample()
 API Guide
 -----
 
-+ [pon-timer@1.1.0](./doc/api/api.md)
++ [pon-timer@1.1.1](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#pon-timer-function-create)
   + [PonTimer](./doc/api/api.md#pon-timer-class)
 
