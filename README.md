@@ -78,10 +78,10 @@ const ponTimer = require('pon-timer')
 
 async function tryExample () {
   let timer = ponTimer()
-  timer.tick()
+  timer.tick('project:your-task-name') // Start tick to measure
   /* ... */
-  let millisecondsFromLastTick = timer.tick()
-  console.log(`The task took ${millisecondsFromLastTick}ms`)
+  let took = timer.tick('project:your-task-name') // Measure from last tick
+  console.log(`The task took ${took}ms`)
 }
 
 tryExample()
@@ -98,7 +98,7 @@ tryExample()
 API Guide
 -----
 
-+ [pon-timer@1.0.0](./doc/api/api.md)
++ [pon-timer@1.1.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#pon-timer-function-create)
   + [PonTimer](./doc/api/api.md#pon-timer-class)
 
