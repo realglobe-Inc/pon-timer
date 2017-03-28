@@ -22,9 +22,12 @@ describe('pon-timer', function () {
   it('Pon timer', () => co(function * () {
     let timer = new PonTimer({})
     ok(timer)
-    timer.tick()
+    timer.tick('foo')
     yield timer.sleep(100)
-    ok(timer.tick() >= 100)
+    timer.tick('bar')
+    yield timer.sleep(100)
+    ok(timer.tick('foo') >= 200)
+    ok(timer.tick('bar') <= 200)
   }))
 })
 
