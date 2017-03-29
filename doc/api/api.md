@@ -1,4 +1,4 @@
-# pon-timer@1.1.1
+# pon-timer@1.1.2
 
 Timer for pon
 
