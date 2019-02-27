@@ -22,18 +22,18 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-timer#readme",
   "dependencies": {
-    "astimer": "^2.0.1"
+    "astimer": "^2.0.2"
   },
   "devDependencies": {
     "ababel": "^5.0.10",
     "amocha": "^5.0.1",
     "ape-formatting": "^2.0.1",
-    "ape-releasing": "^5.0.5",
+    "ape-releasing": "^5.0.7",
     "ape-tasking": "^4.0.12",
     "ape-tmpl": "^6.0.13",
     "ape-updating": "^5.0.3",
     "co": "^4.6.0",
-    "coz": "^7.0.14",
+    "coz": "^7.0.16",
     "injectmock": "^2.0.0",
     "pon-assets": "^1.1.2",
     "sg-templates": "^1.4.4",
