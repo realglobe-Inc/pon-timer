@@ -1,6 +1,6 @@
 {
   "name": "pon-timer",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Timer for pon",
   "main": "lib",
   "scripts": {
